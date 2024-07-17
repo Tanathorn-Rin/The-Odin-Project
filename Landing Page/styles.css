@@ -123,19 +123,43 @@ header nav ul li a {
 }
 
 .cta {
-    background-color: #3182ce;
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
     color: #fff;
     padding: 40px 0;
-    text-align: center;
 }
 
 .cta .cta-box {
     max-width: 500px;
-    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .cta p {
-    margin: 0 0 20px;
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.cta .btn {
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+.button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
 }
 
 footer {
