@@ -8,21 +8,57 @@
     background-color: #1F2837;
 }
 
+.header-logo {
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
 .headertop {
     display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
 }
 
 ul {
     display: flex;
     list-style: none;
+    gap: 10px;
 }
 
 a {
     text-decoration: none;
+    color:white;
 }
 
-.title {
+.hero {
     font-size: 48px;
     font-weight: extra-bold;
+    color: #f9faf8;
+    max-width: 444px;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 444px;
+}
+
+.headerbody {
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+}
+
+.hright {
+    max-height: 250px;
+    margin-left: 44px;
+}
+
+button {
+    background-color: #3882f6;
     color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
 }
