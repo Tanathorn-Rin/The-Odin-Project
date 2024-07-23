@@ -15,6 +15,17 @@
     font-size: 24px;
 }
 
+.hero-main {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .headertop {
     display: flex;
     justify-content: space-between;
@@ -33,11 +44,10 @@ a {
     text-decoration: none;
     color:white;
 }
-
 /*header*/
 
-/*header body*/
 
+/*header body*/
 .headerbody {
     display: flex;
     align-items: center;
@@ -60,7 +70,60 @@ a {
     margin: 10px 0;
 }
 
+.image-placeholder-top {
+    background-color: #64748b;
+    width: 30%;
+    height: 250px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
 /*header body*/
+
+/*information*/
+
+.info-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2837;
+    margin-bottom: 50px;
+
+}
+
+.info-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.info-box {
+    width: 12%;
+    text-align: center;
+}
+
+.info-box p {
+    max-width: 80%;
+    margin: 0 auto; /* Center align the text using margin */
+}
+
+.image-placeholder-info {
+    background-color: #ffffff;
+    border: 5px solid #3b82f6;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+/*information*/
 
 button {
     padding: 7px 30px;
@@ -71,15 +134,4 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.image-placeholder {
-    background-color: #64748b;
-    width: 30%;
-    height: 250px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #e5e7eb;
 }
