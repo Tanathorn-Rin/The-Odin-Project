@@ -113,6 +113,7 @@ a {
 .info-box p {
     max-width: 80%;
     margin: 0 auto; /* Center align the text using margin */
+    margin-bottom: 70px;
 }
 
 .image-placeholder-info {
@@ -122,8 +123,32 @@ a {
     height: 200px;
     margin-bottom: 10px;
 }
-
 /*information*/
+
+/*quote*/
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    max-width: 50%;
+    margin: 0 auto; /* Center align the text using margin */
+    font-style: italic;
+    color: #1F2837;
+}
+
+.author {
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 450px;
+    text-align: center;
+}
+/*quote*/
 
 button {
     padding: 7px 30px;
@@ -134,4 +159,10 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
 }
