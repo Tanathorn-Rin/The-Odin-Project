@@ -82,8 +82,8 @@ a {
 }
 /*header body*/
 
-/*information*/
 
+/*information*/
 .info-section {
     text-align: center;
     padding: 50px;
@@ -125,6 +125,7 @@ a {
 }
 /*information*/
 
+
 /*quote*/
 .quote-section {
     background-color: #e5e7eb;
@@ -150,6 +151,7 @@ a {
 }
 /*quote*/
 
+
 /*sign up*/
 .sign-up{
     display: flex;
@@ -168,12 +170,13 @@ a {
     border: 2px solid #f9faf8;
     border-radius: 10px;
 }
+/*sign up*/
+
 
 /*button*/
 button {
-    
+    margin-top: 10px;
     padding: 7px 30px;
-    
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
